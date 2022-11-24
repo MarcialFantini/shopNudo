@@ -1,0 +1,37 @@
+.header {
+  width: 90%;
+  margin: 40px 0 40px auto;
+  max-width: 1200px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: 20px;
+}
+
+.textContainer {
+  min-height: 300px;
+
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.picture {
+  max-height: 350px;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 20px 0;
+}
+
+.img {
+  height: auto;
+  width: 100%;
+}

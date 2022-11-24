@@ -1,0 +1,29 @@
+.aboutContainer {
+  width: 90%;
+  margin: 30px auto 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: 20px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imgage {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2em;
+}

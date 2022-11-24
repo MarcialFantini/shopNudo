@@ -1,0 +1,16 @@
+.listProducts {
+  width: 90%;
+  margin: 100px auto;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.titles {
+  margin: 20px 0;
+}
